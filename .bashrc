@@ -132,4 +132,4 @@ export PATH=${PATH}:${JMETER_HOME}/bin
 
 
 
-alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
+alias config="git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
