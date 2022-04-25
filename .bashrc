@@ -5,7 +5,7 @@ case $- in
 esac
 
 # Path to your oh-my-bash installation.
-export OSH=/home/khietbt/.oh-my-bash
+export OSH=${HOME}/.oh-my-bash
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
@@ -124,12 +124,6 @@ source "$OSH"/oh-my-bash.sh
 #export NVM_DIR="$HOME/.nvm"
 #[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 #[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-eval "$(rbenv init -)"
-
-export JMETER_HOME=/home/khietbt/jmeter
+export JMETER_HOME=${HOME}/jmeter
 export PATH=${PATH}:${JMETER_HOME}/bin
-
-
-
-
 alias config="git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
